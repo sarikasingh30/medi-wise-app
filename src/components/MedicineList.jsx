@@ -43,6 +43,7 @@ export default function MedicineList() {
     value={search}
     onChange={(e) => setSearch(e.target.value)}
     sx={{
+      color:"#6abec6ff",
       width: "50%",
       "& .MuiOutlinedInput-root": {
         "& fieldset": {
