@@ -1,0 +1,1377 @@
+[
+  {
+    "_id": "med_1",
+    "name": "Atorvastatin",
+    "generic_name": "Atorvastatin Calcium",
+    "form": "Tablet",
+    "strength": "40mg",
+    "quantity": 10,
+    "use": "Used to lower cholesterol and reduce risk of heart disease",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_1",
+        "name": "Healthware House",
+        "price": {
+          "cash": 9,
+          "discounted": 8.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.044936"
+      },
+      {
+        "pharm_id": "springm_1",
+        "name": "Springmeds",
+        "price": {
+          "cash": 11,
+          "discounted": 10.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.044950"
+      },
+      {
+        "pharm_id": "goodrx_1",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 13,
+          "discounted": 12
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.044952"
+      },
+      {
+        "pharm_id": "adelaide_1",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 15,
+          "discounted": 14
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.044954"
+      }
+    ]
+  },
+  {
+    "_id": "med_2",
+    "name": "Lisinopril",
+    "generic_name": "Lisinopril",
+    "form": "Tablet",
+    "strength": "20mg",
+    "quantity": 10,
+    "use": "Used to treat high blood pressure and heart failure",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_2",
+        "name": "Healthware House",
+        "price": {
+          "cash": 10,
+          "discounted": 9.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.044958"
+      },
+      {
+        "pharm_id": "springm_2",
+        "name": "Springmeds",
+        "price": {
+          "cash": 12,
+          "discounted": 11.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.044960"
+      },
+      {
+        "pharm_id": "goodrx_2",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 14,
+          "discounted": 13
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.044962"
+      },
+      {
+        "pharm_id": "adelaide_2",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 16,
+          "discounted": 15
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.044964"
+      }
+    ]
+  },
+  {
+    "_id": "med_3",
+    "name": "Levothyroxine",
+    "generic_name": "Levothyroxine Sodium",
+    "form": "Tablet",
+    "strength": "100mcg",
+    "quantity": 10,
+    "use": "Used to treat hypothyroidism",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_3",
+        "name": "Healthware House",
+        "price": {
+          "cash": 11,
+          "discounted": 10.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.044967"
+      },
+      {
+        "pharm_id": "springm_3",
+        "name": "Springmeds",
+        "price": {
+          "cash": 13,
+          "discounted": 12.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.044969"
+      },
+      {
+        "pharm_id": "goodrx_3",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 15,
+          "discounted": 14
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.044971"
+      },
+      {
+        "pharm_id": "adelaide_3",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 17,
+          "discounted": 16
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.044973"
+      }
+    ]
+  },
+  {
+    "_id": "med_4",
+    "name": "Metformin",
+    "generic_name": "Metformin Hydrochloride",
+    "form": "Tablet",
+    "strength": "1000mg",
+    "quantity": 60,
+    "use": "Used to treat type 2 diabetes",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_4",
+        "name": "Healthware House",
+        "price": {
+          "cash": 12,
+          "discounted": 11.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.044976"
+      },
+      {
+        "pharm_id": "springm_4",
+        "name": "Springmeds",
+        "price": {
+          "cash": 14,
+          "discounted": 13.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.044978"
+      },
+      {
+        "pharm_id": "goodrx_4",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 16,
+          "discounted": 15
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.044980"
+      },
+      {
+        "pharm_id": "adelaide_4",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 18,
+          "discounted": 17
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.044982"
+      }
+    ]
+  },
+  {
+    "_id": "med_5",
+    "name": "Amlodipine",
+    "generic_name": "Amlodipine Besylate",
+    "form": "Tablet",
+    "strength": "10mg",
+    "quantity": 10,
+    "use": "Used to treat high blood pressure and angina",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_5",
+        "name": "Healthware House",
+        "price": {
+          "cash": 13,
+          "discounted": 12.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.044985"
+      },
+      {
+        "pharm_id": "springm_5",
+        "name": "Springmeds",
+        "price": {
+          "cash": 15,
+          "discounted": 14.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.044996"
+      },
+      {
+        "pharm_id": "goodrx_5",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 17,
+          "discounted": 16
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.044998"
+      },
+      {
+        "pharm_id": "adelaide_5",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 19,
+          "discounted": 18
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045001"
+      }
+    ]
+  },
+  {
+    "_id": "med_6",
+    "name": "Omeprazole",
+    "generic_name": "Omeprazole",
+    "form": "Capsule",
+    "strength": "20mg",
+    "quantity": 10,
+    "use": "Used to treat GERD and stomach ulcers",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_6",
+        "name": "Healthware House",
+        "price": {
+          "cash": 14,
+          "discounted": 13.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045004"
+      },
+      {
+        "pharm_id": "springm_6",
+        "name": "Springmeds",
+        "price": {
+          "cash": 16,
+          "discounted": 15.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045006"
+      },
+      {
+        "pharm_id": "goodrx_6",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 18,
+          "discounted": 17
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045009"
+      },
+      {
+        "pharm_id": "adelaide_6",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 20,
+          "discounted": 19
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045011"
+      }
+    ]
+  },
+  {
+    "_id": "med_7",
+    "name": "Simvastatin",
+    "generic_name": "Simvastatin",
+    "form": "Tablet",
+    "strength": "20mg",
+    "quantity": 10,
+    "use": "Used to lower cholesterol",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_7",
+        "name": "Healthware House",
+        "price": {
+          "cash": 15,
+          "discounted": 14.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045013"
+      },
+      {
+        "pharm_id": "springm_7",
+        "name": "Springmeds",
+        "price": {
+          "cash": 17,
+          "discounted": 16.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045016"
+      },
+      {
+        "pharm_id": "goodrx_7",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 19,
+          "discounted": 18
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045018"
+      },
+      {
+        "pharm_id": "adelaide_7",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 21,
+          "discounted": 20
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045021"
+      }
+    ]
+  },
+  {
+    "_id": "med_8",
+    "name": "Losartan",
+    "generic_name": "Losartan Potassium",
+    "form": "Tablet",
+    "strength": "50mg",
+    "quantity": 10,
+    "use": "Used to treat high blood pressure",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_8",
+        "name": "Healthware House",
+        "price": {
+          "cash": 16,
+          "discounted": 15.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045026"
+      },
+      {
+        "pharm_id": "springm_8",
+        "name": "Springmeds",
+        "price": {
+          "cash": 18,
+          "discounted": 17.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045028"
+      },
+      {
+        "pharm_id": "goodrx_8",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 20,
+          "discounted": 19
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045031"
+      },
+      {
+        "pharm_id": "adelaide_8",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 22,
+          "discounted": 21
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045033"
+      }
+    ]
+  },
+  {
+    "_id": "med_9",
+    "name": "Albuterol",
+    "generic_name": "Albuterol Sulfate",
+    "form": "Inhaler",
+    "strength": "90mcg",
+    "quantity": 200,
+    "use": "Used to relieve asthma and COPD symptoms",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_9",
+        "name": "Healthware House",
+        "price": {
+          "cash": 17,
+          "discounted": 16.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045036"
+      },
+      {
+        "pharm_id": "springm_9",
+        "name": "Springmeds",
+        "price": {
+          "cash": 19,
+          "discounted": 18.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045038"
+      },
+      {
+        "pharm_id": "goodrx_9",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 21,
+          "discounted": 20
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045042"
+      },
+      {
+        "pharm_id": "adelaide_9",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 23,
+          "discounted": 22
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045046"
+      }
+    ]
+  },
+  {
+    "_id": "med_10",
+    "name": "Gabapentin",
+    "generic_name": "Gabapentin",
+    "form": "Capsule",
+    "strength": "100mg",
+    "quantity": 90,
+    "use": "Used to treat nerve pain and seizures",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_10",
+        "name": "Healthware House",
+        "price": {
+          "cash": 18,
+          "discounted": 17.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045050"
+      },
+      {
+        "pharm_id": "springm_10",
+        "name": "Springmeds",
+        "price": {
+          "cash": 20,
+          "discounted": 19.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045054"
+      },
+      {
+        "pharm_id": "goodrx_10",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 22,
+          "discounted": 21
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045058"
+      },
+      {
+        "pharm_id": "adelaide_10",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 24,
+          "discounted": 23
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045061"
+      }
+    ]
+  },
+  {
+    "_id": "med_11",
+    "name": "Hydrochlorothiazide",
+    "generic_name": "Hydrochlorothiazide",
+    "form": "Tablet",
+    "strength": "25mg",
+    "quantity": 10,
+    "use": "Used to treat high blood pressure and fluid retention",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_11",
+        "name": "Healthware House",
+        "price": {
+          "cash": 19,
+          "discounted": 18.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045066"
+      },
+      {
+        "pharm_id": "springm_11",
+        "name": "Springmeds",
+        "price": {
+          "cash": 21,
+          "discounted": 20.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045071"
+      },
+      {
+        "pharm_id": "goodrx_11",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 23,
+          "discounted": 22
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045074"
+      },
+      {
+        "pharm_id": "adelaide_11",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 25,
+          "discounted": 24
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045077"
+      }
+    ]
+  },
+  {
+    "_id": "med_12",
+    "name": "Amoxicillin",
+    "generic_name": "Amoxicillin",
+    "form": "Capsule",
+    "strength": "500mg",
+    "quantity": 21,
+    "use": "Used to treat bacterial infections",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_12",
+        "name": "Healthware House",
+        "price": {
+          "cash": 20,
+          "discounted": 19.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045080"
+      },
+      {
+        "pharm_id": "springm_12",
+        "name": "Springmeds",
+        "price": {
+          "cash": 22,
+          "discounted": 21.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045083"
+      },
+      {
+        "pharm_id": "goodrx_12",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 24,
+          "discounted": 23
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045085"
+      },
+      {
+        "pharm_id": "adelaide_12",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 26,
+          "discounted": 25
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045087"
+      }
+    ]
+  },
+  {
+    "_id": "med_13",
+    "name": "Furosemide",
+    "generic_name": "Furosemide",
+    "form": "Tablet",
+    "strength": "40mg",
+    "quantity": 10,
+    "use": "Used to treat fluid build-up due to heart failure or kidney disease",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_13",
+        "name": "Healthware House",
+        "price": {
+          "cash": 21,
+          "discounted": 20.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045090"
+      },
+      {
+        "pharm_id": "springm_13",
+        "name": "Springmeds",
+        "price": {
+          "cash": 23,
+          "discounted": 22.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045092"
+      },
+      {
+        "pharm_id": "goodrx_13",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 25,
+          "discounted": 24
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045095"
+      },
+      {
+        "pharm_id": "adelaide_13",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 27,
+          "discounted": 26
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045097"
+      }
+    ]
+  },
+  {
+    "_id": "med_14",
+    "name": "Sertraline",
+    "generic_name": "Sertraline Hydrochloride",
+    "form": "Tablet",
+    "strength": "50mg",
+    "quantity": 10,
+    "use": "Used to treat depression and anxiety disorders",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_14",
+        "name": "Healthware House",
+        "price": {
+          "cash": 22,
+          "discounted": 21.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045100"
+      },
+      {
+        "pharm_id": "springm_14",
+        "name": "Springmeds",
+        "price": {
+          "cash": 24,
+          "discounted": 23.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045107"
+      },
+      {
+        "pharm_id": "goodrx_14",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 26,
+          "discounted": 25
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045109"
+      },
+      {
+        "pharm_id": "adelaide_14",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 28,
+          "discounted": 27
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045111"
+      }
+    ]
+  },
+  {
+    "_id": "med_15",
+    "name": "Montelukast",
+    "generic_name": "Montelukast Sodium",
+    "form": "Tablet",
+    "strength": "10mg",
+    "quantity": 10,
+    "use": "Used to prevent asthma attacks and allergies",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_15",
+        "name": "Healthware House",
+        "price": {
+          "cash": 23,
+          "discounted": 22.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045114"
+      },
+      {
+        "pharm_id": "springm_15",
+        "name": "Springmeds",
+        "price": {
+          "cash": 25,
+          "discounted": 24.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045116"
+      },
+      {
+        "pharm_id": "goodrx_15",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 27,
+          "discounted": 26
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045118"
+      },
+      {
+        "pharm_id": "adelaide_15",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 29,
+          "discounted": 28
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045120"
+      }
+    ]
+  },
+  {
+    "_id": "med_16",
+    "name": "Pantoprazole",
+    "generic_name": "Pantoprazole Sodium",
+    "form": "Tablet",
+    "strength": "40mg",
+    "quantity": 10,
+    "use": "Used to treat GERD and stomach ulcers",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_16",
+        "name": "Healthware House",
+        "price": {
+          "cash": 24,
+          "discounted": 23.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045127"
+      },
+      {
+        "pharm_id": "springm_16",
+        "name": "Springmeds",
+        "price": {
+          "cash": 26,
+          "discounted": 25.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045110"
+      },
+      {
+        "pharm_id": "goodrx_16",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 28,
+          "discounted": 27
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045132"
+      },
+      {
+        "pharm_id": "adelaide_16",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 10,
+          "discounted": 29
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045134"
+      }
+    ]
+  },
+  {
+    "_id": "med_17",
+    "name": "Tamsulosin",
+    "generic_name": "Tamsulosin Hydrochloride",
+    "form": "Capsule",
+    "strength": "0.4mg",
+    "quantity": 10,
+    "use": "Used to treat enlarged prostate (BPH)",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_17",
+        "name": "Healthware House",
+        "price": {
+          "cash": 25,
+          "discounted": 24.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045136"
+      },
+      {
+        "pharm_id": "springm_17",
+        "name": "Springmeds",
+        "price": {
+          "cash": 27,
+          "discounted": 26.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045138"
+      },
+      {
+        "pharm_id": "goodrx_17",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 29,
+          "discounted": 28
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045140"
+      },
+      {
+        "pharm_id": "adelaide_17",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 31,
+          "discounted": 10
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045143"
+      }
+    ]
+  },
+  {
+    "_id": "med_18",
+    "name": "Clopidogrel",
+    "generic_name": "Clopidogrel Bisulfate",
+    "form": "Tablet",
+    "strength": "75mg",
+    "quantity": 10,
+    "use": "Used to prevent blood clots",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_18",
+        "name": "Healthware House",
+        "price": {
+          "cash": 26,
+          "discounted": 25.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045145"
+      },
+      {
+        "pharm_id": "springm_18",
+        "name": "Springmeds",
+        "price": {
+          "cash": 28,
+          "discounted": 27.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045147"
+      },
+      {
+        "pharm_id": "goodrx_18",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 10,
+          "discounted": 29
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045149"
+      },
+      {
+        "pharm_id": "adelaide_18",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 32,
+          "discounted": 31
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045151"
+      }
+    ]
+  },
+  {
+    "_id": "med_19",
+    "name": "Warfarin",
+    "generic_name": "Warfarin Sodium",
+    "form": "Tablet",
+    "strength": "5mg",
+    "quantity": 10,
+    "use": "Used as a blood thinner to prevent clots",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_19",
+        "name": "Healthware House",
+        "price": {
+          "cash": 27,
+          "discounted": 26.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045154"
+      },
+      {
+        "pharm_id": "springm_19",
+        "name": "Springmeds",
+        "price": {
+          "cash": 29,
+          "discounted": 28.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045156"
+      },
+      {
+        "pharm_id": "goodrx_19",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 31,
+          "discounted": 10
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045159"
+      },
+      {
+        "pharm_id": "adelaide_19",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 33,
+          "discounted": 32
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045161"
+      }
+    ]
+  },
+  {
+    "_id": "med_20",
+    "name": "Prednisone",
+    "generic_name": "Prednisone",
+    "form": "Tablet",
+    "strength": "10mg",
+    "quantity": 20,
+    "use": "Used to reduce inflammation in various conditions",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_20",
+        "name": "Healthware House",
+        "price": {
+          "cash": 28,
+          "discounted": 27.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045163"
+      },
+      {
+        "pharm_id": "springm_20",
+        "name": "Springmeds",
+        "price": {
+          "cash": 10,
+          "discounted": 29.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045165"
+      },
+      {
+        "pharm_id": "goodrx_20",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 32,
+          "discounted": 31
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045167"
+      },
+      {
+        "pharm_id": "adelaide_20",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 34,
+          "discounted": 33
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045169"
+      }
+    ]
+  },
+  {
+    "_id": "med_21",
+    "name": "Meloxicam",
+    "generic_name": "Meloxicam",
+    "form": "Tablet",
+    "strength": "15mg",
+    "quantity": 10,
+    "use": "Used to treat arthritis pain and inflammation",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_21",
+        "name": "Healthware House",
+        "price": {
+          "cash": 29,
+          "discounted": 28.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045172"
+      },
+      {
+        "pharm_id": "springm_21",
+        "name": "Springmeds",
+        "price": {
+          "cash": 31,
+          "discounted": 10.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045175"
+      },
+      {
+        "pharm_id": "goodrx_21",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 33,
+          "discounted": 32
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045177"
+      },
+      {
+        "pharm_id": "adelaide_21",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 35,
+          "discounted": 34
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045179"
+      }
+    ]
+  },
+  {
+    "_id": "med_22",
+    "name": "Cyclobenzaprine",
+    "generic_name": "Cyclobenzaprine Hydrochloride",
+    "form": "Tablet",
+    "strength": "10mg",
+    "quantity": 10,
+    "use": "Used as a muscle relaxant",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_22",
+        "name": "Healthware House",
+        "price": {
+          "cash": 10,
+          "discounted": 29.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045181"
+      },
+      {
+        "pharm_id": "springm_22",
+        "name": "Springmeds",
+        "price": {
+          "cash": 32,
+          "discounted": 31.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045184"
+      },
+      {
+        "pharm_id": "goodrx_22",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 34,
+          "discounted": 33
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045186"
+      },
+      {
+        "pharm_id": "adelaide_22",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 36,
+          "discounted": 35
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045187"
+      }
+    ]
+  },
+  {
+    "_id": "med_23",
+    "name": "Fluoxetine",
+    "generic_name": "Fluoxetine Hydrochloride",
+    "form": "Capsule",
+    "strength": "20mg",
+    "quantity": 10,
+    "use": "Used to treat depression and OCD",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_23",
+        "name": "Healthware House",
+        "price": {
+          "cash": 31,
+          "discounted": 10.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045190"
+      },
+      {
+        "pharm_id": "springm_23",
+        "name": "Springmeds",
+        "price": {
+          "cash": 33,
+          "discounted": 32.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045192"
+      },
+      {
+        "pharm_id": "goodrx_23",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 35,
+          "discounted": 34
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045194"
+      },
+      {
+        "pharm_id": "adelaide_23",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 37,
+          "discounted": 36
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045196"
+      }
+    ]
+  },
+  {
+    "_id": "med_24",
+    "name": "Citalopram",
+    "generic_name": "Citalopram Hydrobromide",
+    "form": "Tablet",
+    "strength": "20mg",
+    "quantity": 10,
+    "use": "Used to treat depression",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_24",
+        "name": "Healthware House",
+        "price": {
+          "cash": 32,
+          "discounted": 31.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045199"
+      },
+      {
+        "pharm_id": "springm_24",
+        "name": "Springmeds",
+        "price": {
+          "cash": 34,
+          "discounted": 33.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045201"
+      },
+      {
+        "pharm_id": "goodrx_24",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 36,
+          "discounted": 35
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045203"
+      },
+      {
+        "pharm_id": "adelaide_24",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 38,
+          "discounted": 37
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045205"
+      }
+    ]
+  },
+  {
+    "_id": "med_25",
+    "name": "Escitalopram",
+    "generic_name": "Escitalopram Oxalate",
+    "form": "Tablet",
+    "strength": "10mg",
+    "quantity": 10,
+    "use": "Used to treat depression and anxiety",
+    "pharmacies": [
+      {
+        "pharm_id": "healthware_25",
+        "name": "Healthware House",
+        "price": {
+          "cash": 33,
+          "discounted": 32.5
+        },
+        "availability": true,
+        "url": "https://www.healthwarehouse.com",
+        "lastUpdated": "2025-09-23T17:47:49.045207"
+      },
+      {
+        "pharm_id": "springm_25",
+        "name": "Springmeds",
+        "price": {
+          "cash": 35,
+          "discounted": 34.3
+        },
+        "availability": false,
+        "url": "https://www.springmeds.com",
+        "lastUpdated": "2025-09-23T17:47:49.045209"
+      },
+      {
+        "pharm_id": "goodrx_25",
+        "name": "GoodRx Home Delivery",
+        "price": {
+          "cash": 37,
+          "discounted": 36
+        },
+        "availability": true,
+        "url": "https://www.goodrx.com",
+        "lastUpdated": "2025-09-23T17:47:49.045211"
+      },
+      {
+        "pharm_id": "adelaide_25",
+        "name": "Adelaide Apothecary",
+        "price": {
+          "cash": 39,
+          "discounted": 38
+        },
+        "availability": true,
+        "url": "https://www.adelaideapothecary.pharmacy",
+        "lastUpdated": "2025-09-23T17:47:49.045213"
+      }
+    ]
+  }
+]
