@@ -1,6 +1,5 @@
-import React from 'react'
-import Hero from './Hero'
-import MedicineList from "../MedicineList"
+import Hero from '../components/home/Hero'
+import MedicineList from "../components/MedicineList"
 
 export default function Home() {
   return (

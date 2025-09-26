@@ -9,12 +9,12 @@ import {
   ThemeProvider,
 } from "@mui/material";
 import { Brightness4, Brightness7 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
 
-  
-   const theme = createTheme({
+  const theme = createTheme({
     palette: {
       mode: darkMode ? "dark" : "light",
       ...(darkMode
@@ -25,7 +25,7 @@ function Navbar() {
             },
           }),
     },
-  })
+  });
 
   return (
     <ThemeProvider theme={theme}>
@@ -33,9 +33,18 @@ function Navbar() {
       <AppBar position="static" elevation={6}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           {/* Company-Name */}
-          <Typography variant="h6" component="div">
-            MediWise
-          </Typography>
+          <Link
+            to="/"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{ textDecoration: "none" }}
+            >
+              MediWise
+            </Typography>
+          </Link>
 
           {/* Toggle Button */}
           <IconButton
