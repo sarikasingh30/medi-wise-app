@@ -1,4 +1,4 @@
-import * as React from "react";
+
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
@@ -14,6 +14,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
 import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const ExpandMore = styled((props) => {
   const { ...other } = props;
@@ -39,21 +40,19 @@ const ExpandMore = styled((props) => {
   ],
 }));
 
-export default function MedCard({
-  medData,
-}) {
-  const [expanded, setExpanded] = React.useState(false);
-const navigate = useNavigate();
+export default function MedCard({ medData }) {
+  const [expanded, setExpanded] =useState(false);
+  const navigate = useNavigate();
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
   return (
-    
     <Card
       sx={{
         maxWidth: 345,
         background: "linear-gradient(135deg, #e0f7fa, #ffffff)",
+        color: "black",
       }}
     >
       <CardHeader
@@ -63,21 +62,24 @@ const navigate = useNavigate();
           </Avatar>
         }
         title={`${medData.name} ${medData.strength} ${medData.form}`}
-        subheader={medData.name}
+        subheader={medData.generic_name}
+        subheaderTypographyProps={{ color: "#7c7f80ff" }}
       />
 
       <CardActions disableSpacing>
-        <IconButton onClick={() =>
-    navigate("/compare", {
-      state: {medData},
-    })}>
+        <IconButton
+          onClick={() =>
+            navigate("/compare", {
+              state: { medData },
+            })
+          }
+        >
           <LocalPharmacyIcon sx={{ color: " #6abec6ff" }} />
         </IconButton>
         <ExpandMore
-          
           onClick={handleExpandClick}
-         
           aria-label="show more"
+          sx={{ color: "#7c7f80ff" }}
         >
           <ExpandMoreIcon />
         </ExpandMore>
@@ -104,13 +106,17 @@ const navigate = useNavigate();
           </Box>
           <Button
             variant="contained"
-            sx={{ backgroundColor: "#6abec6ff", fontWeight: "bold" }}
+            sx={{
+              backgroundColor: "#6abec6ff",
+              fontWeight: "bold",
+              color: "white",
+            }}
             fullWidth
-             onClick={() =>
-    navigate("/compare", {
-      state: {medData},
-    })
-  }
+            onClick={() =>
+              navigate("/compare", {
+                state: { medData },
+              })
+            }
           >
             Your Choice Matters
           </Button>

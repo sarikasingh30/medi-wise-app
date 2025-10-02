@@ -31,7 +31,8 @@ export default function Hero() {
 
       {/* Content */}
       <Container sx={{ position: "relative", zIndex: 1 }}>
-        <Typography variant="h2" component="h1" gutterBottom fontWeight="bold">
+        <Typography variant="h2" component="h1" fontWeight="bold" textAlign="center"
+        color="#4dc3ceff">
           MediWise
         </Typography>
         <Typography variant="h5">

@@ -8,10 +8,6 @@ import {
   Typography,
   Button,
 } from "@mui/material";
-import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
-import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
-import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
-import StorageIcon from "@mui/icons-material/Storage";
 import MedCard from "./medicines/MedCard";
 
 export default function MedicineList() {
@@ -31,7 +27,9 @@ export default function MedicineList() {
 
   return (
     <Box sx={{ p: 4 }}>
-      <Typography variant="h4" component="h2" gutterBottom textAlign="center">
+      <Typography variant="h4" component="h2" gutterBottom textAlign="center"
+        color="#6abec6ff"
+        fontWeight="bold">
         Explore Medicines
       </Typography>
 
@@ -47,24 +45,24 @@ export default function MedicineList() {
             width: "50%",
             "& .MuiOutlinedInput-root": {
               "& fieldset": {
-                borderColor: "#6abec6ff", // default border
+                borderColor: "#6abec6ff", 
               },
               "&:hover fieldset": {
-                borderColor: "#6abec6ff", // hover border
+                borderColor: "#6abec6ff", 
               },
               "&.Mui-focused fieldset": {
-                borderColor: "#6abec6ff", // focused border
+                borderColor: "#6abec6ff", 
               },
               "& input": {
-                color: "red", // text while typing
+                color: "red", 
               },
             },
             "& .MuiInputLabel-root.Mui-focused": {
-              color: "#6abec6ff", // label color when focused
+              color: "#6abec6ff", 
             },
             // Label color
             "& .MuiInputLabel-root": {
-              color: "#6abec6ff", // normal label
+              color: "#6abec6ff",
             },
           }}
         />
